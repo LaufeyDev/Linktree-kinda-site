@@ -1,30 +1,36 @@
+
 body {
     background-color: #171717;
-  
     color: white;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
   }
   
-  .profile-picture {
+  .pfp{
+    position: relative;
+    width: 96px;
+    height: 96px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-    margin-top: 10%;
-    height: auto;
-    max-width: 100px;
-  
+    margin: 35px auto 20px;
     border-radius: 50%;
-  }
+    -webkit-tap-highlight-color: transparent;
+}
+
+ 
   
-  .profile-name {
+  #userName {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.0;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-  
-    padding: 30px;
-    font-size: 48px;
-  }
+    text-decoration: none;
+    
+}
+
   
   .links {
     text-align: center;
@@ -43,7 +49,8 @@ body {
     font-size: 18px;
   }
   
-  a {
+  
+a {
     text-decoration: none;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
