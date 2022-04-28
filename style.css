@@ -1,27 +1,34 @@
 
 body {
-    background-color: #171717;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: 2px;
-  }
+  background-color: #171717;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+
+
+
+
   
   .pfp{
-    position: relative;
-    width: 150px;
-    height: 150px;
+
     display: block;
-    margin: 35px auto 20px;
-    border-radius: 50%;
-    -webkit-tap-highlight-color: transparent;
-}
+    margin: 0 auto;
+    
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    border: rgb(226, 65, 65);
+  
+  }
 
  
   
-  #userName {
+  p {
     color: var(--accentColor);
     font-size: 1rem;
-    font-weight: bold;
+    
     line-height: 2.0;
     display: block;
     font-family: var(--font);
