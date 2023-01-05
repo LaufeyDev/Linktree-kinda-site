@@ -6,7 +6,12 @@ body {
   letter-spacing: 2px;
 }
 
-
+h1{
+  color:rgb(124, 179, 225);
+  font-size: 84px;
+  text-align: center;
+  font-family: 'Rowdies', cursive;
+}
 
 
 
@@ -42,7 +47,7 @@ body {
   .links {
     text-align: center;
     margin-top: 20px;
-    border: 1px solid red;
+    border: 1px solid rgb(124, 179, 225);
     border-width: 1px;
     padding: 15px;
   
@@ -62,7 +67,7 @@ a {
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
   
-    color: rgb(226, 65, 65);
+    color: rgb(228, 87, 87);
     transition: color 1s;
   }
   
